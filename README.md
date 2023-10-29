@@ -27,4 +27,7 @@ Database connectivity- Room
 
 ![image](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/b925a067-c708-4f4a-a171-91401936f9a8)
 
+Firebase Authentication
+
+![image](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/ddcbbf95-996a-4034-b977-d3b8e63a2a57)
 
