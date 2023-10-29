@@ -1,8 +1,6 @@
 package com.example.expensetrackerapp.add_expenses
 
 
-import android.app.DatePickerDialog
-import android.widget.DatePicker
 import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
@@ -68,7 +66,7 @@ fun AddExpenses1(
     val textColor = Color(0xFF113946)
     val mid_purple = Color(0xFFEAD7BB)
     val light_purple = Color(0xFFBCA37F)
-    val bgCOlor = Color(0xFFFFF8C9)
+
     Column(
         modifier = Modifier
 
@@ -80,14 +78,10 @@ fun AddExpenses1(
 
         val options = listOf("Option 1", "Option 2", "Option 3")
         var expanded1 by remember { mutableStateOf(false) }
-        var selectedOptionText by remember { mutableStateOf(options[0]) }
 
-        val context = LocalContext.current
-        val categories = arrayOf("House", "Clothes", "Food", "Bills", "Subscriptions")
-        var expanded by remember { mutableStateOf(false) }
 
         var selectedCategory by remember { mutableStateOf("") }
-        var date by remember { mutableStateOf("") }
+
         var isUserBelow18 by remember {
             mutableStateOf(false)
         }
@@ -110,14 +104,6 @@ fun AddExpenses1(
 
         val mDate = remember { mutableStateOf("") }
 
-        val mDatePickerDialog = DatePickerDialog(
-            mContext,
-            { _: DatePicker, mYear: Int, mMonth: Int, mDayOfMonth: Int ->
-                mDate.value = "$mDayOfMonth/${mMonth + 1}/$mYear"
-            }, mYear, mMonth, mDay
-        )
-
-        val selectedDate = mDate.value
 //
         Spacer(modifier = Modifier.padding(2.dp))
         Text(
@@ -360,7 +346,6 @@ fun AddExpenses1(
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-//selectedCategory: String,
 fun Demo_ExposedDropdownMenuBox1(
     onCategorySelected: (String) -> Unit,
     state: DetailState,

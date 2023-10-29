@@ -11,34 +11,29 @@ import androidx.activity.viewModels
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
 import androidx.compose.runtime.getValue
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.lifecycleScope
+import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.room.Room
-import com.example.expensetrackerapp.login.GoogleAuthUIClient
-import com.example.expensetrackerapp.room_database.DetailDatabase
-import com.example.expensetrackerapp.ui.theme.ExpenseTrackerAppTheme
-import com.example.expensetrackerapp.viewmodel.CardListViewModel
-import androidx.lifecycle.viewmodel.compose.viewModel
-import androidx.navigation.NavController
 import com.example.expensetrackerapp.add_expenses.AddExpenses1
 import com.example.expensetrackerapp.data_charts.YourMainComposable
 import com.example.expensetrackerapp.expenseslist.CardListScreen2
-
+import com.example.expensetrackerapp.login.GoogleAuthUIClient
 import com.example.expensetrackerapp.login.ProfileUser
 import com.example.expensetrackerapp.login.SignINScreen
 import com.example.expensetrackerapp.login.SignInViewModel
+import com.example.expensetrackerapp.room_database.DetailDatabase
+import com.example.expensetrackerapp.ui.theme.ExpenseTrackerAppTheme
+import com.example.expensetrackerapp.viewmodel.CardListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.launch
 
@@ -89,7 +84,7 @@ class MainActivity : ComponentActivity() {
                             val viewModel = viewModel<SignInViewModel>()
                             val state by viewModel.state.collectAsStateWithLifecycle()
 
-                            LaunchedEffect(key1 = Unit,) {
+                            LaunchedEffect(key1 = Unit) {
                                 if (googleAuthUiClient.getSignInUser() != null) {
                                     navController1.navigate("profile")
                                 }
