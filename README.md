@@ -1,7 +1,8 @@
 # Expense-Tracker-App
 Home Page
 
-![Screenshot_20231029-103851_Expense Tracker App](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/97708040-4e75-4f13-95f8-1427c9aa6c39)
+![Screenshot_20231029-103851_Expense Tracker App](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/ba309368-eed2-416f-8bd3-736030ffa8eb)
+
 
 Login Page
 
