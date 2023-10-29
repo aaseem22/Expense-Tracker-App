@@ -78,7 +78,8 @@ class MainActivity : ComponentActivity() {
                 Surface(
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
-                ) {  val state by viewModel.state.collectAsState()
+                ) {
+                    val state by viewModel.state.collectAsState()
 
 
                     val cardListViewModel = viewModel<CardListViewModel>()
@@ -161,7 +162,7 @@ class MainActivity : ComponentActivity() {
                                 state = state, onEvent = viewModel::onEvent,
                                 navController = navController1,
 
-                            )
+                                )
                         }
                         //form page
                         composable("cardFormScreen2") {
@@ -186,21 +187,5 @@ class MainActivity : ComponentActivity() {
             }
         }
 
-    }
-
-    @Composable
-    fun Greeting(name: String, modifier: Modifier = Modifier) {
-        Text(
-            text = "Hello $name!",
-            modifier = modifier
-        )
-    }
-
-    @Preview(showBackground = true)
-    @Composable
-    fun GreetingPreview() {
-        ExpenseTrackerAppTheme {
-            Greeting("Android")
-        }
     }
 }
