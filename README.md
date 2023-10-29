@@ -23,3 +23,8 @@ Visualization Page
 
 ![Screenshot_20231029-105525_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/e45c5cd5-97b1-4727-832b-189a3ede8e22)
 
+Database connectivity- Room
+
+![image](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/b925a067-c708-4f4a-a171-91401936f9a8)
+
+
