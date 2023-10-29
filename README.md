@@ -5,7 +5,7 @@ Home Page
 
 Login Page
 
-![Screenshot_20231029-105216_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/0fd023dc-55eb-48c8-ad0c-68454ecea05d)
+![Screenshot_20231029-105216_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/077e3e50-901e-4d4d-9e02-2913ff7a0b77)
 
 Add Expense Page
 
