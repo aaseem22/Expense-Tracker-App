@@ -6,12 +6,20 @@ Home Page
 
 Login Page
 
-![Screenshot_20231029-105216_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/077e3e50-901e-4d4d-9e02-2913ff7a0b77)
+![Screenshot_20231029-105216_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/8257ba3a-bae4-4a1b-83fc-2bb43d2f1294)
+
 
 Add Expense Page
 
-![Screenshot_20231029-105225_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/c4a737b7-ad2d-44f2-9042-fc614d26351b)
+![Screenshot_20231029-105225_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/2feb1b1d-32ba-473c-85ca-9cc740bb8b6a)
+
+
+Expense List page
+
+![Screenshot_20231029-105254_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/0a372577-7ff0-4d11-982d-7c7769e6d371)
+
 
 Visualization Page
 
-![Screenshot_20231029-105525_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/6ab1987e-5834-420b-b756-360346d89e7b)
+![Screenshot_20231029-105525_Expense Tracker App (1)](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/e45c5cd5-97b1-4727-832b-189a3ede8e22)
+
