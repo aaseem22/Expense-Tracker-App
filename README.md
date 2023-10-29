@@ -31,3 +31,5 @@ Firebase Authentication
 
 ![image](https://github.com/aaseem22/Expense-Tracker-App/assets/98115116/ddcbbf95-996a-4034-b977-d3b8e63a2a57)
 
+Build Steps-
+Run the main app in the android studio
