@@ -1,8 +1,8 @@
-# # Expense-Tracker-App
+# Expense-Tracker-App
 
 An Android expense tracker application built with Kotlin and Jetpack Compose. This app allows users to securely log in with their Gmail account using Firebase Authentication, track their expenses, store data using Room Database, and visualize their financial data with Compose Charts.
 
-# Features
+## Features
 - **Gmail Authentication:** Users can log in using their Gmail accounts securely through Firebase Authentication.
 
 - **Add Expense:** Easily add and categorize expenses, including date, category, and amount.
@@ -12,13 +12,13 @@ An Android expense tracker application built with Kotlin and Jetpack Compose. Th
 - **Data Visualization:** Visualize expense data with Compose Charts to gain insights into your spending patterns.
 
 
-# # Getting Started
-# Prerequisites
--Android Studio with Kotlin support
--Firebase project with Gmail Authentication enabled
--Basic knowledge of Kotlin, Android development, and Firebase setup
+## Getting Started
+## Prerequisites
+- Android Studio with Kotlin support. 
+- Firebase project with Gmail Authentication enabled
+- Basic knowledge of Kotlin, Android development, and Firebase setup
 
-# Installation
+## Installation
 1.Clone this repository to your local machine:
 
 bash
@@ -31,7 +31,7 @@ git clone https://github.com/yourusername/expense-tracker.git
 
 4.Build and run the application on your Android emulator or physical device.
 
-# Usage
+## Usage
 1.Launch the app and log in using your Gmail account.
 
 2.Add expenses by clicking the "Add Expense" button and filling out the required information.
