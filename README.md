@@ -23,7 +23,7 @@ An Android expense tracker application built with Kotlin and Jetpack Compose. Th
 
 bash
 Copy code
-git clone https://github.com/yourusername/expense-tracker.git
+git clone https://github.com/aaseem22/expense-tracker-app.git
 
 2.Open the project in Android Studio.
 
